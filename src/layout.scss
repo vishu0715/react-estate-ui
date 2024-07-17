@@ -10,19 +10,19 @@
 
     
     @include lg{
-        background-color: blue;
+        background-color: rgb(119, 119, 222);
         max-width: 1280px;
     }
 
     
     @include md{
-        background-color: green;
+        background-color: rgb(165, 248, 165);
         max-width: 768px;
     }
 
 
     @include sm{
-        background-color: red;
+        background-color: rgb(189, 136, 225);
         max-width: 640px;
     }
 }
