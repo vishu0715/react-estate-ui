@@ -1,9 +1,9 @@
 @import "../../responsive.scss";
 nav {
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
     
     a{
         transition: all 0.4s ease;
@@ -27,7 +27,6 @@ nav {
            display: flex;
            align-items: center;
            gap: 10px;
-       }
        img{
          width: 28px;
        }
@@ -35,16 +34,17 @@ nav {
         @include md{
             display: none;
         }
-        @include lg{
-            display: inline;
+        @include sm{
+            display:inline;
         }
        }
+    }
     }
     .right{
        flex: 2;
        display: flex;
-       justify-content: flex-end;
        align-items: center;
+       justify-content: flex-end;
        gap: 20px;
        background-color: whitesmoke;
        height: 100%;
@@ -54,7 +54,7 @@ nav {
 
        a{
            text-decoration: none;
-           padding: 10px 20px;
+           padding: 12px 24px;
            margin: 20px;
        }
        .register{
@@ -63,7 +63,7 @@ nav {
        }
        .menuIcon{
            display: none;
-           z-index: 1;
+           z-index: 999;
            @include sm{
                display: inline;
            }
