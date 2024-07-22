@@ -1,0 +1,98 @@
+.card{
+   display: flex;
+   gap: 20px;
+   
+   .imageContainer{
+       flex: 2;
+       height: 200px;
+       img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         border-radius: 8px;
+         cursor: pointer;
+         &:hover{
+             scale: 1.05;
+             transition: ease-in-out 0.5s;
+         }
+       }
+   }
+
+   .textContainer{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            color:#0f0e0ec2;
+        }
+        img{
+            width: 16px;
+            height: 16px;
+        }
+        &:hover{
+            color: blueviolet;
+            transition: ease-in-out 0.5s;
+            scale: 1.05;
+            cursor: pointer;
+        }
+        .address{
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #1e1f1f;
+        }
+        .price{
+            font-size: 20px;
+            font-weight: 300;
+            padding: 5px;
+            background-color: #ddc9c9;
+            border-radius: 5;
+            width:max-content;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+
+            .features{
+                display: flex;
+                gap: 20px;
+                font-size: 14px;
+
+                .feature{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    background-color: rgb(224, 245, 216);
+                    border-radius: 5px;
+                }
+            }
+            .icons{
+                display: flex;
+                gap: 20px;
+
+                .icon{
+                    border: 1px solid #999;
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: cornsilk;
+
+                    &:hover{
+                        background-color: beige;
+                        scale: 1.05;
+                        transition: ease-in-out 0.5s;
+                    }
+                }
+            }
+        }
+   }
+}
