@@ -1,10 +1,10 @@
 export const listData= [
           {
             "id": "852223931024",
-            "title": "Luxury House in Scarsdale",
-            "area": "Westchester County",
-            "address": "6 Garth rd, Scarsdale, NY 10583",
-            "city": "Scarsdale",
+            "title": "Luxury House in Hyderabad",
+            "area": "Jubilee hills",
+            "address": "940, Venkatagiri, Jubilee Hills, Hyderabad, Telangana 500033",
+            "city": "Hyderabad",
             "image": "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799641.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
             "type": "Duplex",
             "floorspace": 1264,
@@ -12,14 +12,16 @@ export const listData= [
             "bathroom": 1,
             "price": 295000,
             "parking": 2,
-            "construction": ["fireplace", "landry"]
+            "construction": ["fireplace", "landry"],
+            "latitude": 17.437652818182794,
+            "longitude": 78.41254464709708
           },
           {
             "id": "651263730501",
-            "title": "Luxury Condo in White Plains",
-            "area": "Westchester County",
-            "address": "39 Sterling ave, White Plains, NY 10606",
-            "city": "White Plains",
+            "title": "Luxury Condo in Banglore",
+            "area": "Whitefiels,Banglore",
+            "address": "5&6, Sri Layout, Pattandur Agrahara Village, Kr Puram, Hobli, Whitefield, Bengaluru, Karnataka 560066",
+            "city": "whilte fiels",
             "image": "https://img.freepik.com/free-photo/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai_188544-7729.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
             "type": "Condo",
             "floorspace": 768,
@@ -27,14 +29,16 @@ export const listData= [
             "bathroom": 2,
             "price": 445000,
             "parking": 1,
-            "construction": ["elevator", "garage"]
+            "construction": ["elevator", "garage"],
+            "latitude": 12.978626075802918,
+            "longitude": 77.73294663875109
           },
           {
             "id": "3511539610225",
-            "title": "Luxury House in Eastchester",
-            "area": "Westchester County",
-            "address": "62 Highland St, Eastchester, NY 10608",
-            "city": "Eastchester",
+            "title": "Luxury House in Hyderabad",
+            "area": "Medhipatnam",
+            "address": "9CPM+FHJ, Hari Hara Nilyam Gudimalkpur N Rd, Navodaya Colony, Mehdipatnam, Hyderabad, Telangana 500028",
+            "city": "Hyderabad",
             "image": "https://img.freepik.com/free-photo/facade-modern-house_1268-24725.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
             "type": "Single Family",
             "floorspace": 1264,
@@ -42,7 +46,9 @@ export const listData= [
             "bathroom": 1,
             "price": 325000,
             "parking": 0,
-            "construction": ["basement", "landry"]
+            "construction": ["basement", "landry"],
+            "latitude":17.38627810740011,
+            "longitude":78.43387512297218
           },
           {
             "id": "2511639410001",
@@ -57,7 +63,9 @@ export const listData= [
             "bathroom": 1,
             "price": 665000,
             "parking": 0,
-            "construction": ["fireplace", "gym"]
+            "construction": ["fireplace", "gym"],
+            "latitude": 40.93472784087129,
+            "longitude": -73.8348718530283
           },
           {
             "id": "2411639439991",
@@ -72,6 +80,46 @@ export const listData= [
             "bathroom": 1,
             "price": 265000,
             "parking": 1,
-            "construction": ["landry", "gym"]
+            "construction": ["landry", "gym"],
+            "latitude": 40.928459311937566,
+            "longitude": -73.81404188722715
           },
-      ]
+      ];
+
+      export const singlePostData = {
+          id: "852223931024",
+          title: "Luxury House in Hyderabad",
+          price: 295000,
+          images: [
+            "https://img.freepik.com/free-photo/3d-rendering-house-model_23-2150799641.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
+            "https://img.freepik.com/free-photo/yellow-armchair-living-room-with-copy-space_43614-940.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
+            "https://img.freepik.com/premium-photo/living-room_891880-59.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph",
+            "https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152155.jpg?size=626&ext=jpg&uid=R156130906&ga=GA1.1.367085021.1721319472&semt=sph"
+          ],
+          bedroom: 3,
+          bathroom: 1,
+          size: 1264,
+          area: "Jubilee hills",
+          address: "940, Venkatagiri, Jubilee Hills, Hyderabad, Telangana 500033",
+          city: "Hyderabad",
+          type: "Duplex",
+          floorspace: 1264,
+          parking: 2,
+          construction: ["fireplace", "landry"],
+          latitude: 17.437652818182794,
+          longitude: 78.41254464709708,
+          school: "250m away",
+          hospital: "300m away",
+          bus: "100m away",
+          restaurant: "450m away",
+          mall: "500m away",
+          description:"Wonderfull House close to every facility in the city"
+      };
+
+      export const userData = {
+          id: "852223931024",
+          name: "Vishnu",
+          email: "vishnu@123",
+          phone: 1234567890,
+          image: "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg"
+      }
